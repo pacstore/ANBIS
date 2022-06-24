@@ -90,7 +90,7 @@ system=$(cat /etc/issue.net)
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo -e "\033[1;37m $system                          $date"
 figlet "STAR NET" | lolcat
-echo "SCRIPT EM DESENVOLVIMENTO !!"
+echo "EDIT BY @PACSTORE"
 echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━\033[0m"
 echo ""
 echo ""
@@ -137,7 +137,7 @@ if [[ "$resposta" = '1' ]]; then
     chmod 777 ShellBot.sh >/dev/null 2>&1
     cd >/dev/null 2>&1
     #-----------------------------------------------------------------------------------------------------------------
-    echo -e "\n\033[1;32mTUDO PRONTO HORA DO SHOW! \033[1;32m"
+    echo -e "\n\033[1;32mPreparando tudo... \033[1;32m"
 sleep 2s
     echo ""
     [[ -f "$HOME/usuarios.db" ]] && {
@@ -146,7 +146,7 @@ sleep 2s
         date=$(date '+%Y-%m-%d <> %H:%M:%S')
         echo -e "\033[1;37m $system                          $date"
         figlet "STAR NET" | lolcat
-        echo "SCRIPT EM DESENVOLVIMENTO !!" 
+        echo "EDIT BY @PACSTORE" 
         echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━\033[0m"
         echo -e "\033[1;33mOPA DETECTAMOS..."
         echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━\033[0m"
@@ -175,7 +175,7 @@ sleep 2s
     date=$(date '+%Y-%m-%d <> %H:%M:%S')
     echo -e "\033[1;37m $system                          $date"
     figlet "STAR NET" | lolcat
-    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                 ATUALIZAÇÕES COSTUMA DEMORAR UM POUCO !               \033[1;33m \033[0m\033[01;31m║"
+    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                 ATUALIZAÇÕES PODEM DEMORAR, AGUARDE!               \033[1;33m \033[0m\033[01;31m║"
     echo -e "\033[01;31m║\033[0m"
     fun_attlist() {
         apt-get update -y
@@ -189,7 +189,7 @@ sleep 2s
     date=$(date '+%Y-%m-%d <> %H:%M:%S')
     echo -e "\033[1;37m $system                          $date"
     figlet "      STAR NET" | lolcat
-    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                 ATUALIZAÇÃO DE PACOTES NECESSÁRIOS                \033[1;33m \033[0m\033[01;31m║"
+    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                 ATUALIZANDO PACOTES                \033[1;33m \033[0m\033[01;31m║"
     echo -e "\033[01;31m║\033[0m"
     inst_pct() {
         _pacotes=("bc" "screen" "nano" "unzip" "lsof" "netstat" "net-tools" "dos2unix" "nload" "jq" "curl" "figlet" "python3" "python-pip" "python" "at")
@@ -210,7 +210,7 @@ sleep 2s
     date=$(date '+%Y-%m-%d <> %H:%M:%S')
     echo -e "\033[1;37m $system                          $date"
     figlet "    STAR NET" | lolcat
-    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                OTIMIZANDO PYTHON               \033[1;33m \033[0m\033[01;31m║"
+    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                OTIMIZANDO SISTEMA               \033[1;33m \033[0m\033[01;31m║"
     echo -e "\033[01;31m║\033[0m"
     fun_bar 'otimize_python'
     clear
@@ -219,7 +219,7 @@ sleep 2s
     date=$(date '+%Y-%m-%d <> %H:%M:%S')
     echo -e "\033[1;37m $system                          $date"
     figlet "    STAR NET" | lolcat
-    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                FINALIZANDO INSTALAÇÕES NECESSÁRIAS               \033[1;33m \033[0m\033[01;31m║"
+    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                PREPARANDO INTERFACE GRÁFICA               \033[1;33m \033[0m\033[01;31m║"
     echo -e "\033[01;31m║\033[0m"
     fun_bar "$_Ink/list $_lnk $_Ink $_1nk $key"
     clear
@@ -239,7 +239,7 @@ sleep 2s
     date=$(date '+%Y-%m-%d <> %H:%M:%S')
     echo -e "\033[1;37m $system                          $date"
     figlet "STAR NET" | lolcat
-    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                INSTALACAO CONCLUIDA               \033[1;33m \033[0m\033[01;31m║"
+    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                INSTALAÇÃO CONCLUÍDA.               \033[1;33m \033[0m\033[01;31m║"
     echo -e "\033[01;31m║\033[1;33mPARA INICIAR DIGITE: \033[1;32mmenu\033[0m"
     echo -e "\033[01;31m║\033[1;33m MAIS INFORMACOES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@PACSTORE\033[0m"
     rm $HOME/Plus && cat /dev/null > ~/.bash_history && history -c
@@ -274,7 +274,7 @@ elif [[ "$resposta" = '2' ]]; then
         date=$(date '+%Y-%m-%d <> %H:%M:%S')
         echo -e "\033[1;37m $system                          $date"
         figlet "STAR NET" | lolcat
-        echo "SCRIPT EM DESENVOLVIMENTO !!" 
+        echo "EDIT BY @PACSTORE" 
         echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━\033[0m"
         echo -e "\033[1;33mOPA DETECTAMOS..."
         echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━\033[0m"
@@ -303,7 +303,7 @@ elif [[ "$resposta" = '2' ]]; then
     date=$(date '+%Y-%m-%d <> %H:%M:%S')
     echo -e "\033[1;37m $system                          $date"
     figlet "STAR NET" | lolcat
-    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                 ATUALIZAÇÕES COSTUMA DEMORAR UM POUCO !               \033[1;33m \033[0m\033[01;31m║"
+    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                 ATUALIZAÇÕES PODEM DEMORAR, AGUARDE!               \033[1;33m \033[0m\033[01;31m║"
     echo -e "\033[01;31m║\033[0m"
     fun_attlist() {
         apt-get update -y
@@ -317,7 +317,7 @@ elif [[ "$resposta" = '2' ]]; then
     date=$(date '+%Y-%m-%d <> %H:%M:%S')
     echo -e "\033[1;37m $system                          $date"
     figlet "      STAR NET" | lolcat
-    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                 ATUALIZAÇÃO DE PACOTES NECESSÁRIOS                \033[1;33m \033[0m\033[01;31m║"
+    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                 ATUALIZANDO PACOTES                \033[1;33m \033[0m\033[01;31m║"
     echo -e "\033[01;31m║\033[0m"
     inst_pct() {
         _pacotes=("bc" "screen" "nano" "unzip" "lsof" "netstat" "net-tools" "dos2unix" "nload" "jq" "curl" "figlet" "python3" "python-pip" "python" "at")
@@ -338,7 +338,7 @@ elif [[ "$resposta" = '2' ]]; then
     date=$(date '+%Y-%m-%d <> %H:%M:%S')
     echo -e "\033[1;37m $system                          $date"
     figlet "    STAR NET" | lolcat
-    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                OTIMIZANDO PYTHON               \033[1;33m \033[0m\033[01;31m║"
+    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                OTIMIZANDO SYSTEMA               \033[1;33m \033[0m\033[01;31m║"
     echo -e "\033[01;31m║\033[0m"
     fun_bar 'otimize_python'
     clear
@@ -347,7 +347,7 @@ elif [[ "$resposta" = '2' ]]; then
     date=$(date '+%Y-%m-%d <> %H:%M:%S')
     echo -e "\033[1;37m $system                          $date"
     figlet "    STAR NET" | lolcat
-    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                FINALIZANDO INSTALAÇÕES NECESSÁRIAS               \033[1;33m \033[0m\033[01;31m║"
+    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                PREPARANDO INTERFACE GRÁFICA               \033[1;33m \033[0m\033[01;31m║"
     echo -e "\033[01;31m║\033[0m"
     fun_bar "$_Ink/listARM $_lnk $_Ink $_1nk $key"
     clear
@@ -367,7 +367,7 @@ elif [[ "$resposta" = '2' ]]; then
     date=$(date '+%Y-%m-%d <> %H:%M:%S')
     echo -e "\033[1;37m $system                          $date"
     figlet "STAR NET" | lolcat
-    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                INSTALACAO CONCLUIDA               \033[1;33m \033[0m\033[01;31m║"
+    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                INSTALAÇÃO CONCLUIDA.               \033[1;33m \033[0m\033[01;31m║"
     echo -e "\033[01;31m║\033[1;33mPARA INICIAR DIGITE: \033[1;32mmenu\033[0m"
     echo -e "\033[01;31m║\033[1;33m MAIS INFORMACOES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@PACSTORE\033[0m"
     rm $HOME/Plus && cat /dev/null > ~/.bash_history && history -c
