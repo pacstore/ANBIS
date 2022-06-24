@@ -1,6 +1,6 @@
 #!/bin/bash
 ####################################<
-### "BY @ALFAINTERNET <<" ###
+### "EDIT BY @PACSTORE <<" ###
 ####################################<
 user=$(whoami)
 if [ "$user" != "root" ]; then

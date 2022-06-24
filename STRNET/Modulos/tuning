@@ -1,5 +1,5 @@
 #!/bin/bash
-### @ALFAINTERNET ###
+### PACSTORE ###
 clear
 echo -e "\E[41;1;37m  TUNING    \E[0m"
 if [[ `grep -c "^#PH56" /etc/sysctl.conf` -eq 1 ]]

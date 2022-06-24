@@ -1,7 +1,7 @@
 #!/bin/bash
 # script de backup com envio automático de e-mails antes e após a
 # conclusão do mesmo:.
-# Autor: @ALFAINTERNET 
+# Autor: Crazy
 # Data: 02/06/2022
 
 # Variáveis auxiliares:.(Utilizadas no decorrer do script)
